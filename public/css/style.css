@@ -1,0 +1,12 @@
+:root {
+    --graylight: #e5e5e5;
+    --graymedium: #c7c7c7;
+    --graydark: #2c2c2c;
+    --white: #fff;
+    --black: #1f1f1f;
+}
+
+.container {
+    max-width: 1200px;
+    margin:auto;
+}
