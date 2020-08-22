@@ -1,9 +1,10 @@
 :root {
     --graylight: #e5e5e5;
     --graymedium: #c7c7c7;
+    --graymedium2: #707070;
     --graydark: #2c2c2c;
     --white: #fff;
-    --black: #1f1f1f;
+    --black: #0a0a0a;
 }
 
 .container {

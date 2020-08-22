@@ -28,13 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-html, body {
-    overflow-x: hidden;
-}
-
 body {
 	line-height: 1;
-    margin: 0;
+	font-family: 'Montserrat', 'tahoma', sans-serif;
+	color: #2e4255;
 }
 ol, ul {
 	list-style: none;
@@ -50,6 +47,11 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
 }
 
 /* clearfix */
@@ -74,3 +76,13 @@ table {
 		*, *:before, *:after {
 			box-sizing: inherit;
 		}
+
+:root {
+	--rose: #e93d50;
+	--lightblue: #4286f4;
+	--darkblue:	#2a3042;
+	--orange: #f76148;
+	;
+	;
+
+}

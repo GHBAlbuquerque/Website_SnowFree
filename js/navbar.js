@@ -1,11 +1,11 @@
 
-$(".navbar-burguer").on('click', function(){
-    $(".navbar-list").toggle("slow")
+$(".navbar-burguer").on('click', function () {
+    $(".burguer-list").toggle("slow")
 });
 
-$(".navbar-list").on('click', function(){
-    if (!$(this).hasClass("navbar-item")) {
-        $(this).toggle("slow")
+$(document).on('click', function (e) {
+    if ($(".burguer-list").is(":visible") 
+    && !$(e.target).hasClass("material-icons")) {
+        $(".burguer-list").toggle("slow")
     }
-
-});
+})
