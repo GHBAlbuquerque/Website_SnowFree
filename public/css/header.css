@@ -1,7 +1,15 @@
 
 .navbar {
-    background-color: var(--graylight);
+    background-color: transparent;
     height: 90px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    transition: background-color 0.5s;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 
@@ -16,13 +24,18 @@
 }
 
 .navbar-logo{
-    background-image: url('../img/logo.png');
+    background-image: url('../img/logo-light.png');
     background-repeat: no-repeat;
     background-size: 90%;
     display:block;
     font-size: 0;
     height: 37px;
     width: 96px;
+    transition: background-image 0.5s;
+}
+
+.logodark {
+    background-image: url('../img/logo.png');
 }
 
 .navbar-burguer {
@@ -30,7 +43,13 @@
     background-color: inherit;
     position: absolute;
     right: 25px;
+}
+    .material-icons {
+        color: white;
+    }
 
+.burguer-black {
+    color: var(--black);
 }
 
     .navbar-burguer a:visited{
@@ -85,10 +104,6 @@
 @media (min-width: 1024px) {
 
 
-.navbar {
-    background-color: var(--white);
-}
-
 .navbar .container {
     max-width: 1200px;
 }
@@ -110,7 +125,7 @@
     }
 
     .navbar-link {
-        color: var(--graymedium2);
+        color: var(--white);
         display: block;
         font-family: 'Work Sans', sans-serif;
         font-weight: 420;
@@ -120,6 +135,10 @@
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
+    }
+
+    .dark {
+        color: var(--graymedium2);
     }
 
     .navbar-link:hover {
