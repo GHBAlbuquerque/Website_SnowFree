@@ -1,0 +1,81 @@
+.logos {
+    padding: 2rem 0;
+}
+
+.carousel-container {
+    overflow:hidden;
+    position:relative;
+    width: 90%;
+    margin: auto;
+    height: 150px;
+}
+
+.logos-carousel {
+    position: relative;
+    top:50px;
+    left: 10px;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+        .logo a {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-size: 90%;
+        }
+
+        #logo1 {
+            background-image: url('../img/clogo1.png');
+        }
+
+        #logo2 {
+            background-image: url('../img/clogo2.png');
+        }
+
+        #logo3 {
+            background-image: url('../img/clogo3.png');
+        }
+
+        #logo4 {
+            background-image: url('../img/clogo4.png');
+        }
+
+        #logo5 {
+            background-image: url('../img/clogo5.png');
+        }
+
+        #logo6 {
+            background-image: url('../img/clogo2.png');
+        }
+
+        #logo7 {
+            background-image: url('../img/clogo3.png');
+        }
+
+
+
+.carousel-button {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+    .carousel-button i {
+        font-size: 20px;
+        color: var(--graymedium);
+    }
+
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+

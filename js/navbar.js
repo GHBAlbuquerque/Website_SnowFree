@@ -1,3 +1,5 @@
+(function() {
+// navbar scroll change
 $(window).scroll(function() {
     if ($(window).scrollTop() > $(".navbar").height()) {
         $(".navbar").addClass('bg-white')
@@ -12,14 +14,18 @@ $(window).scroll(function() {
     }
 });
 
-
+// navbar burguer on click open
 $(".navbar-burguer").on('click', function () {
     $(".burguer-list").toggle("slow")
 });
 
+// burguer menu on click outside close
 $(document).on('click', function (e) {
     if ($(".burguer-list").is(":visible") 
     && !$(e.target).hasClass("material-icons")) {
         $(".burguer-list").toggle("slow")
     }
 })
+
+
+})();

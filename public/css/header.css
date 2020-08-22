@@ -6,6 +6,7 @@
     top:0;
     width: 100%;
     transition: background-color 0.5s;
+    z-index: 1;
 }
 
 .bg-white {
@@ -57,16 +58,16 @@
     }
 
 .burguer-list{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     display: none;
-    height: auto;
-    padding: 2rem;
+    height: 658px;
+    padding: 4rem 1rem;
     position: absolute;
     top: 90px;
     left: 0;
     transition: .3s all;
     width: 100vw;
-    z-index: 1;
+    z-index: 10;
 }
 
     .burguer-item {
@@ -78,8 +79,8 @@
             display: block;
             font-family: 'playfair-display', serif;
             font-weight: 400;
-            font-size: 1rem;
-            padding: 10px;
+            font-size: 1.2rem;
+            padding: 1rem;
             text-decoration: none;
             text-align: center;
         }
@@ -97,6 +98,10 @@
 
     .navbar-burguer {
         right: 5rem;
+    }
+
+    .burguer-list {
+        height: 472px;
     }
 
 }
