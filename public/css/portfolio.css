@@ -19,28 +19,70 @@
     padding-bottom: 2rem;
 }
 
-.best-pro div {
+.projects{
     max-height: 1000px;
     display: grid;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
     z-index: -10;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
-.portfolio-item {
-    display: block;
-    position: relative;
-    margin: auto;
-    width: 100vw;
-    height: 100vw;
-    background-color: var(--graylight);
-    background-image: url('../img/portfolio-1-sm.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .projects::-webkit-scrollbar {
+        display: none;
+    }
 
-.portfolio-name {
-    display: none;
-}
+    .portfolio-name {
+        display: none;
+    }
+
+    .portfolio-item {
+        display: block;
+        position: relative;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 100vw;
+        height: 100vw;
+        background-color: var(--graylight);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+        .portfolio-item[dataset="1"] {
+            background-image: url('../img/portfolio_mountain.jpg');
+        }
+
+        .portfolio-item[dataset="2"] {
+            background-image: url('../img/portfolio_mist.jpg');
+        }
+
+        .portfolio-item[dataset="3"] {
+            background-image: url('../img/portfolio_sea.jpg');
+        }
+
+        .portfolio-item[dataset="4"] {
+            background-image: url('../img/portfolio_dive.jpg');
+        }
+
+        .portfolio-item[dataset="5"] {
+            background-image: url('../img/portfolio_waterfal.jpg');
+        }
+
+        .portfolio-item[dataset="6"] {
+            background-image: url('../img/portfolio_wedding.jpg');
+        }
+
+        .portfolio-item[dataset="7"] {
+            background-image: url('../img/portfolio_mist.jpg');
+        }
+
+        .portfolio-item[dataset="8"] {
+            background-image: url('../img/portfolio_mountain.jpg');
+        }
+
+        .portfolio-item[dataset="9"] {
+            background-image: url('../img/portfolio_wedding.jpg');
+        }

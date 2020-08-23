@@ -1,6 +1,7 @@
 .blog {
-    margin: 2rem;
+    padding: 2rem;
     text-align: center;
+    background-color: var(--graylight);
 }
 
 .blog-title {
@@ -18,3 +19,63 @@
     line-height: 1.8;
     padding-bottom: 2rem;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slick-slide {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .blogcard {
+        background-color: var(--white);
+        color: var(--black);
+        height: 415px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        position:relative;
+        text-align: left;
+        width: 315px;
+    }
+        .blog-tag {
+            background-color: var(--black);
+            color: var(--white);
+            font-family: 'sans work',sans-serif;
+            font-size: 0.7rem;
+            left: 5%;
+            padding: 0.5rem 1rem;
+            position:absolute;
+            text-transform: uppercase;
+            top: 40%;
+        }
+
+        .blog-image {
+            background-image: url('../img/post-1-mid.jpg');
+            height: 50%;
+        }
+
+        .blog-posttitle {
+            font-family: 'playfair-display', serif;;
+            font-size: 1.5rem;
+            font-weight: 550;
+            padding: 1rem 1.5rem;
+        }
+
+        .blog-date {
+            font-family: 'sans work',sans-serif;;
+            font-size: 0.7rem;
+            padding: 0.2rem 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .blog-text {
+            font-family: 'sans work',sans-serif;;
+            font-size: 0.7rem;
+            overflow-y: hidden;
+            line-height: 1.7;
+            padding: 0.5rem 1.5rem 1rem 1.5rem;
+        }

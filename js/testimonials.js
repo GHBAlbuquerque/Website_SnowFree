@@ -17,11 +17,9 @@ $(document).on('click','.slider', function(){
 setInterval(function() { 
     let selectedSlider = $('.slider-active')
     selectedSlider.removeClass('slider-active').addClass('slider')
-    console.log(selectedSlider.data().pos)
 
     if(selectedSlider.data().pos == 3){
         let firstBullet = $('#slidernav').children('a').first();
-        console.log(firstBullet)
         $('#slidernav').children('a').first().addClass('slider-active');
     } else {
         selectedSlider.next().addClass('slider-active');
@@ -31,6 +29,6 @@ setInterval(function() {
     let testSelected = $(`#testmonial${number}`).html();
     testimonial.html('');
     testimonial.html(testSelected).find('.textTest').removeClass('fade');
-}, 4000);
+}, 5000);
 
 })();

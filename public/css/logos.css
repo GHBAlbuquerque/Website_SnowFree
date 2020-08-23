@@ -3,21 +3,29 @@
 }
 
 .carousel-container {
-    overflow:hidden;
+    overflow-y: hidden;
+    overflow-x: scroll;
     position:relative;
     width: 90%;
     margin: auto;
     height: 150px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
 }
+
+    .carousel-container::-webkit-scrollbar {
+        display: none;
+    }
 
 .logos-carousel {
     position: relative;
+    width: 1200px;
     top:50px;
-    left: 10px;
+    left:10px;
 }
 
 .logo {
-    position: relative;
     float: left;
     margin-right: 50px;
     padding-top: 10px;
@@ -57,6 +65,10 @@
 
         #logo7 {
             background-image: url('../img/clogo3.png');
+        }
+
+        #logo8 {
+            background-image: url('../img/clogo4.png');
         }
 
 
