@@ -90,7 +90,6 @@
 }
 
 @media (min-width: 768px) {
-
     .navbar .container {
         padding-left: 5rem;
         padding-right: 5rem;
@@ -108,10 +107,18 @@
 
 @media (min-width: 1024px) {
 
+    .navbar-logo{
+        background-image: url('../img/logo.png');
+    }
 
-.navbar .container {
-    max-width: 1200px;
-}
+    .material-icons {
+        color: var(--black);
+    }
+
+
+    .navbar .container {
+        max-width: 1200px;
+    }
 
     .navbar-burguer {
         display: none;
@@ -130,7 +137,7 @@
     }
 
     .navbar-link {
-        color: var(--white);
+        color: var(--black);
         display: block;
         font-family: 'Work Sans', sans-serif;
         font-weight: 420;

@@ -6,6 +6,10 @@
     color: var(--white);
     padding: 5rem 2rem 5rem 3rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 420px;
 }
 
 .testimonial p{
@@ -42,3 +46,42 @@
         .fade {
             opacity: 0.5;
         }
+
+@media (min-width: 768px) {
+
+    .testimonials {
+        min-height: 380px;
+    }
+
+    
+    .testimonial p{
+        margin: auto;
+        width: 75%;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        padding-bottom: 1rem;
+    }
+
+    .testimonial cite{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .testimonials {
+        min-height: 0px;
+    }
+
+    .testimonial p{
+        margin: auto;
+        width: 50%;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        padding-bottom: 1rem;
+    }
+
+    .testimonial cite{
+        font-size: 0.7rem;
+    }
+
+}

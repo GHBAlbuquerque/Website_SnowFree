@@ -2,7 +2,12 @@
 
 .contact {
     background-color: var(--graylight);
-    padding: 5rem 2rem 5rem 2rem;
+    padding: 2rem;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-title {
@@ -79,4 +84,77 @@ textarea {
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     padding: 0.5rem;
+}
+
+
+@media (min-width: 768px) {
+
+    .contact-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-text {
+        font-size: 0.9rem;
+        line-height: 1.7;
+    }
+    .agency-infos{
+        font-size: 0.9rem;
+    }
+    .agency-infos dl {
+        line-height: 2;
+    }
+
+
+    .contact-about {
+        width: 50%;
+        padding-right: 1.7rem;
+    }
+
+    .contact-form {
+        width: 50%;
+    }
+
+    .contact-form form button {
+    display: block;
+    font-size: 0.6rem;
+    width: 40%;
+    margin: auto;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .contact-text {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .agency-infos{
+        font-size: 1rem;
+    }
+    .agency-infos dl {
+        line-height: 1.8;
+    }
+
+    .contact-form form button {
+        display: block;
+        font-size: 0.8rem;
+        width: 40%;
+        margin: auto;
+        }
+
+        input:active,
+        input:focus,
+        textarea:active,
+        textarea:focus {
+            outline: none;
+            border: 1px solid var(--graydark);
+        }
+
 }

@@ -56,3 +56,33 @@
     .banner a:hover i{
         color: var(--white)
     }
+
+    @media (min-width: 768px) {
+        .banner {
+            padding: 200px 8rem 0 8em;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+
+        .banner {
+            background-color: transparent;
+            color:var(--black);
+        }
+    
+        .banner::after {
+            background-image: url("../img/bg-menu2.gif");
+            content: "";
+            background-size: cover;
+            position: absolute;
+            background-repeat: no-repeat;
+            opacity: 0.3;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;   
+            height: 100%;
+            max-height: 560px;
+        }
+    }

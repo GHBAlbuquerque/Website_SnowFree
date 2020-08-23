@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/header.css">
@@ -93,71 +94,74 @@
         <!--numbers-->
         <section class="numbers" role="numbers">
             <div class="container">
-                <div class="numbers-data">
-                    <i class="material-icons numbers-logo">work_outline</i>
-                    <div>
-                        <p class="numbers-text">548</p>
-                        <p class="numbers-text">Projects completed</p>
+                <div class="numbers-collection">
+                    <div class="number-data number1">
+                        <i class="material-icons numbers-logo">work_outline</i>
+                        <div>
+                            <p class="numbers-text">548</p>
+                            <p class="numbers-text">Projects completed</p>
+                        </div>
                     </div>
-                </div>
-                <div class="numbers-data">
-                    <i class="material-icons numbers-logo">schedule</i>
-                    <div>
-                        <p class="numbers-text">1465</p>
-                        <p class="numbers-text">working hours</p>
+                    <div class="number-data number2">
+                        <i class="material-icons numbers-logo">schedule</i>
+                        <div>
+                            <p class="numbers-text">1465</p>
+                            <p class="numbers-text">working hours</p>
+                        </div>
                     </div>
-                </div>
-                <div class="numbers-data">
-                    <i class="material-icons numbers-logo">star_outline</i>
-                    <div>
-                        <p class="numbers-text">612</p>
-                        <p class="numbers-text">positive feedbacks</p>
+                    <div class="number-data number3">
+                        <i class="material-icons numbers-logo">star_outline</i>
+                        <div>
+                            <p class="numbers-text">612</p>
+                            <p class="numbers-text">positive feedbacks</p>
+                        </div>
                     </div>
-                </div>
-                <div class="numbers-data">
-                    <i class="material-icons numbers-logo">favorite_border</i>
-                    <div>
-                        <p class="numbers-text">735</p>
-                        <p class="numbers-text">happy clients</p>
+                    <div class="number-data number4">
+                        <i class="material-icons numbers-logo">favorite_border</i>
+                        <div>
+                            <p class="numbers-text">735</p>
+                            <p class="numbers-text">happy clients</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!--portfolio-->
-        <section class="best-pro" role="best-projects">
+        <section class="portfolio" role="best-projects">
             <div class="container">
-                <h3 class="best-title">Best Projects</h3>
-                <p>Spread it by exploring these photography assignments from home and sharing your best photos from
+                <h3 class="port-title">Best Projects</h3>
+                <p class="port-text">Spread it by exploring these photography assignments from home and sharing your
+                    best photos from
                     them.
                 </p>
                 <div class="projects">
                     <a href="" class="portfolio-item" dataset="1">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">Take a Hike</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="2">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">On The Clouds</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="3">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">The Shell Seekers</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="4">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">Dive</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="5">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">Lost Waterfall</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="6">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">A Wedding Feast</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="7">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">Seek Shelter</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="8">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">Pathway</p>
                     </a>
                     <a href="" class="portfolio-item" dataset="9">
-                        <p class="portfolio-name">Name</p>
+                        <p class="portfolio-name">Her Hands</p>
                     </a>
                 </div>
             </div>
@@ -197,14 +201,14 @@
                     </ul>
                 </div>
 
-                <div id="buttons">
+                <!-- <div id="buttons">
                     <a class="carousel-button" id="left">
                         <i class="material-icons numbers-logo">navigate_before</i>
                     </a>
                     <a class="carousel-button" id="right">
                         <i class="material-icons numbers-logo">navigate_next</i>
                     </a>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -216,7 +220,7 @@
                 <div class="sliderblog cards">
 
                     <div class="blogcard">
-                        <div class="blog-image" alt="blog-image"></div>
+                        <div class="blog-image" alt="blog-image" dataset="1"></div>
                         <span class="blog-tag">City</span>
                         <h5 class="blog-posttitle">Something I Need To Tell You</h5>
                         <p class="blog-date">May, 16, 2016</p>
@@ -226,7 +230,7 @@
                     </div>
 
                     <div class="blogcard">
-                        <div class="blog-image" alt="blog-image"></div>
+                        <div class="blog-image" alt="blog-image" dataset="2"></div>
                         <span class="blog-tag">Nature</span>
                         <h5 class="blog-posttitle">It's All About the Mountains</h5>
                         <p class="blog-date">October, 19, 2020</p>
@@ -236,7 +240,7 @@
                     </div>
 
                     <div class="blogcard">
-                        <div class="blog-image" alt="blog-image"></div>
+                        <div class="blog-image" alt="blog-image" dataset="3"></div>
                         <span class="blog-tag">Space</span>
                         <h5 class="blog-posttitle">Lost in Space</h5>
                         <p class="blog-date">January, 06, 2017</p>
@@ -251,7 +255,7 @@
 
         <!--contact-->
         <section class="contact">
-            <div class="container">
+            <div class="container contact-box">
                 <!--about-->
                 <div class="contact-about">
                     <h2 class="contact-title">Contact Info:</h2>
@@ -282,14 +286,11 @@
                 <div class="contact-form">
                     <form action="">
                         <label for="name" class="contact-label">
-                            <input type="text" name="name"
-                                placeholder="Your Name"></label>
+                            <input type="text" name="name" placeholder="Your Name"></label>
                         <label for="email" class="contact-label">
-                            <input type="text" name="email"
-                                placeholder="Your E-mail"></label>
+                            <input type="text" name="email" placeholder="Your E-mail"></label>
                         <label for="title" class="contact-label">
-                            <input type="text" name="title"
-                                placeholder="Title"></label>
+                            <input type="text" name="title" placeholder="Title"></label>
                         <textarea name="comment" placeholder="Your Comment"></textarea>
                         <button>Send Message</button>
                     </form>
@@ -300,39 +301,50 @@
 
     <!--FOOTER-->
     <footer>
-        <div class="container">
+        <div class="container footer-items">
             <!--about-->
             <div class="footer-about">
                 <h3>About Us</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis porro dolorem veritatis beatae repellendus quo labore, quibusdam placeat eius soluta minima quas iusto nam laboriosam fuga. Obcaecati, at voluptatibus?</p>
-                <a href="">logo</a>
-                <a href="">logo</a>
-                <a href="">logo</a>
-                <a href="">logo</a>
-                <a href="">logo</a>
-                <a href="">logo</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis porro dolorem veritatis
+                    beatae repellendus quo labore, quibusdam placeat eius soluta minima quas iusto nam laboriosam fuga.
+                    Obcaecati, at voluptatibus?</p>
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-behance"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
             </div>
 
             <!--tweets-->
             <div class="tweets">
                 <h3>Latest Tweets</h3>
-                <span class="tweet-logo">logo</span>
-                <p>tweet</p>
-                <span class="tweet-logo">logo</span>
-                <p>tweet</p>
-                <span class="tweet-logo">logo</span>
-                <p>tweet</p>
+                <div class="tweet">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <p>So many interesting people are following me. I think I'll follow some of you guys as well.</p>
+                </div>
+                <div class="tweet">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <p>A good day.</p>
+                </div>
+                <div class="tweet">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <p>This is neat.</p>
+                </div>
             </div>
 
             <!--instagram-->
             <div class="instagram">
                 <h3>Instagram</h3>
-                <a href="" class="instagram-photo">photo</a>
-                <a href="" class="instagram-photo">photo</a>
-                <a href="" class="instagram-photo">photo</a>
-                <a href="" class="instagram-photo">photo</a>
-                <a href="" class="instagram-photo">photo</a>
-                <a href="" class="instagram-photo">photo</a>
+                <div>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                </div>
             </div>
 
             <div class="copyright">
