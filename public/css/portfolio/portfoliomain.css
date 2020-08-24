@@ -101,13 +101,13 @@
                 align-items: center;
                 height: auto;
                 max-height: none;
-                margin-left: 5rem;
-                margin-right: 5rem;
+                margin-left: 3rem;
+                margin-right: 3rem;
             }
         
             .portfolio-work {
-                height: 280px;
-                width: 280px;
+                height: 28vw;
+                width: 28vw;
                 background-size: cover;
                 margin-bottom: 10px;
                 position: relative;
