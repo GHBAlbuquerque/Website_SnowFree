@@ -28,13 +28,9 @@ main {
     
 
     .navicon {
-        font-size: 35px;
         color: var(--graydark);
+        font-size: 35px;
         transition: color 1s;
-    }
-
-    .navicon:hover {
-        color: var(--graymedium);   
     }
 
     .light {
@@ -59,3 +55,11 @@ main {
     .listactive {
         color: var(--black);
     }
+
+
+@media (min-width:1024) {
+
+    .navicon:hover {
+        color: var(--graymedium);   
+    }
+}
