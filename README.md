@@ -1,4 +1,4 @@
-![Logo of the project](http://logo_link)
+![Logo of the project](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/logo.png)
 
 ## Snow | One Page Agency
 
@@ -52,7 +52,8 @@ Here will be the images and descriptions. Principal content.
 
 ## Authors
 
-* **YOUR NAME**: @YOUR_GITHUB_NICKNAME (https://github.com/YOUR_GITHUB_NICKNAME)
+* **Giovanna Albuquerque**: @GHBAlbuquerque (https://github.com/GHBAlbuquerque)
+* **Svetlana S.** Original Feebie availiable on (https://freebiesbug.com/psd-freebies/snow-free-psd-html-template/)
 
 
 Please follow github and join us!
