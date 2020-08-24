@@ -1,4 +1,4 @@
-![Logo of the project](http://logo_link)
+![Logo of the project](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/logo.png)
 
 ## Snow | One Page Agency
 
