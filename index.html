@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/header.css">
-    <link rel="stylesheet" href="public/css/main.css">
     <link rel="stylesheet" href="public/css/banner.css">
     <link rel="stylesheet" href="public/css/about.css">
     <link rel="stylesheet" href="public/css/numbers.css">
@@ -79,7 +78,8 @@
         </section>
 
         <!--about-->
-        <section class="about" role="about" id="about">
+        <a href="" class="anchor" id="about"></a>
+        <section class="about" role="about">
             <div class="container">
                 <h3 class="about-title">About Our Agency</h3>
                 <p>We are a new design studio based in USA. We have over 20 years of combined experience, and know a
@@ -254,6 +254,7 @@
         </section>
 
         <!--contact-->
+        <a href="" class="anchor" id="contact"></a>
         <section class="contact">
             <div class="container contact-box">
                 <!--about-->
@@ -286,12 +287,12 @@
                 <div class="contact-form">
                     <form action="">
                         <label for="name" class="contact-label">
-                            <input type="text" name="name" placeholder="Your Name"></label>
+                            <input class="required" type="text" name="name" placeholder="Your Name"></label>
                         <label for="email" class="contact-label">
-                            <input type="text" name="email" placeholder="Your E-mail"></label>
+                            <input class="required" type="text" name="email" placeholder="Your E-mail"></label>
                         <label for="title" class="contact-label">
-                            <input type="text" name="title" placeholder="Title"></label>
-                        <textarea name="comment" placeholder="Your Comment"></textarea>
+                            <input class="required" type="text" name="title" placeholder="Title"></label>
+                        <textarea class="required" name="comment" placeholder="Your Comment"></textarea>
                         <button>Send Message</button>
                     </form>
                 </div>
@@ -387,6 +388,7 @@
     <script src="js/testimonials.js"></script>
     <script src="js/logos.js"></script>
     <script src="js/blog.js"></script>
+    <script src="js/form.js"></script>
 </body>
 
 </html>
