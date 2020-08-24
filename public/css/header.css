@@ -9,9 +9,13 @@
     z-index: 1;
 }
 
-.bg-white {
-    background-color: white;
-}
+    .bg-white {
+        background-color: white;
+    }
+
+    .bg-black {
+        background-color: var(--black);
+    }
 
 
 .navbar .container {
@@ -35,9 +39,14 @@
     transition: background-image 0.5s;
 }
 
-.logodark {
-    background-image: url('../img/logo.png');
-}
+        .logodark {
+            background-image: url('../img/logo.png');
+        }
+
+        .logolight {
+            background-image: url('../img/logo-light.png');
+        }
+
 
 .navbar-burguer {
     border: none;
@@ -49,9 +58,13 @@
         color: white;
     }
 
-.burguer-black {
-    color: var(--black);
-}
+        .burguer-black {
+            color: var(--black);
+        }
+
+        .burguer-white {
+            color: var(--white);
+        }
 
     .navbar-burguer a:visited{
         color: var(--black);
@@ -60,7 +73,7 @@
 .burguer-list{
     background-color: rgba(0, 0, 0, 0.7);
     display: none;
-    height: 658px;
+    height: 100vh;
     padding: 4rem 1rem;
     position: absolute;
     top: 90px;
@@ -99,9 +112,6 @@
         right: 5rem;
     }
 
-    .burguer-list {
-        height: 472px;
-    }
 
 }
 

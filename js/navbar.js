@@ -14,16 +14,23 @@ $(window).scroll(function() {
     }
 });
 
+    function changeNavbarColor() {
+        $(".navbar").toggleClass('bg-black')
+        $(".navbar-logo").toggleClass('logolight')
+        $(".navbar .material-icons").toggleClass('burguer-white')
+    }
+
 // navbar burguer on click open
 $(".navbar-burguer").on('click', function () {
-    $(".burguer-list").toggle("slow")
+    $(".burguer-list").slideToggle()
+    changeNavbarColor()
 });
 
 // burguer menu on click outside close
 $(document).on('click', function (e) {
     if ($(".burguer-list").is(":visible") 
     && !$(e.target).hasClass("material-icons")) {
-        $(".burguer-list").toggle("slow")
+        $(".burguer-list").slideToggle()
     }
 })
 

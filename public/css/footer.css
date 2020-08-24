@@ -74,6 +74,10 @@ footer h3 {
         color: var(--graydark);
     }
 
+    .copyright {
+        border-top: 1px solid var(--graymedium);
+    }
+
 
 }
 

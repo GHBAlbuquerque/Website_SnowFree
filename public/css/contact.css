@@ -85,6 +85,9 @@ textarea {
     text-transform: uppercase;
     padding: 0.5rem;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: none;
 }
 
     .form-alert {
@@ -147,9 +150,6 @@ textarea {
     width: 40%;
     margin: auto;
     outline: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    box-shadow: none;
     }
 
 }

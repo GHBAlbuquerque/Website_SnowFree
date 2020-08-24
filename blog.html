@@ -10,10 +10,14 @@
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/reset.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/header.css">
-    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/blog/blog-nav.css">
+    <link rel="stylesheet" href="public/css/blog/blog-card.css">
+    <link rel="stylesheet" href="public/css/load-more.css">
+    <link rel="stylesheet" href="public/css/footer.css">
 </head>
 
 <body>
@@ -43,108 +47,178 @@
             </div>
         </nav>
         <!--Burguer Menu List-->
-        <ul class="burguer-list">
-            <li class="burguer-item"><a href="#about" class="burguer-link">About</a></li>
-            <li class="burguer-item"><a href="#contact" class="burguer-link">Contact</a></li>
-            <li class="burguer-item"><a href="portfolio.html" class="burguer-link">Portfolio</a></li>
-            <li class="burguer-item"><a href="blog.html" class="burguer-link">Blog</a></li>
-        </ul>
+        <div class="burguer-list">
+            <ul>
+                <li class="burguer-item"><a href="#about" class="burguer-link">About</a></li>
+                <li class="burguer-item"><a href="#contact" class="burguer-link">Contact</a></li>
+                <li class="burguer-item"><a href="portfolio.html" class="burguer-link">Portfolio</a></li>
+                <li class="burguer-item"><a href="blog.html" class="burguer-link">Blog</a></li>
+            </ul>
+        </div>
     </header>
 
 
     <!--MAIN-->
     <main>
         <div class="blog-nav">
-            <a href=""> icon
-            </a>
+            <a class="blog-navicon"><i class="navicon material-icons">apps</i></a>
 
             <ul class="blog-navlist">
-                <li class="blog-list">
-                    <a href="" class="list-icon">All</a>
-                    <a href="" class="list-icon">Nature</a>
-                    <a href="" class="list-icon">Cities</a>
-                    <a href="" class="list-icon">Branding</a>
-                    <a href="" class="list-icon">Design</a>
-                </li>
+                <a href="" class="list-icon">All</a>
+                <a href="#nature" class="list-icon">Nature</a>
+                <a href="#city" class="list-icon">Cities</a>
+                <a href="#space" class="list-icon">Space</a>
+                <a href="#design" class="list-icon">Design</a>
             </ul>
         </div>
 
         <!--Blog Post-->
 
-        <article class="blog-post">
-            <div class="post-thumbnail"></div>
-            <div class="post-text">
-                <h3 class="post-title"></h3>
-                <p class="post-date"></p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, eaque autem tempora provident
-                    fugiat tempore labore soluta obcaecati. Mollitia sapiente cum reprehenderit. Aspernatur iure,
-                    laudantium alias vel quas voluptatem nemo! </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam natus impedit voluptatibus sit
-                    nihil asperiores quam officiis quasi accusantium vel recusandae architecto omnis ducimus et ipsa
-                    assumenda, fugiat laborum repellendus. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, adipisci recusandae. Id tenetur
-                    omnis fugiat error qui, soluta quod quisquam temporibus ab. Neque soluta, necessitatibus amet
-                    dolorum excepturi fuga deserunt.</p>
+        <div class="cards">
+            <div class="container">
+                <a href="" class="anchor" id="city"></a>
+                <div class="blogcard">
+                    <div class="blog-image" alt="blog-image" dataset="1"></div>
+                    <span class="blog-tag">City</span>
+                    <h5 class="blog-posttitle">Something I Need To Tell You</h5>
+                    <p class="blog-date">May, 16, 2016</p>
+                    <p class="blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+                        quibusdam tempora corporis quasi accusamus quo repudiandae illo nobis, fugit quisquam? Esse
+                        commodi asperiores magnam illum corporis atque, doloribus nobis non.</p>
+                    <p class="blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+                        quibusdam tempora corporis quasi accusamus quo repudiandae illo nobis, fugit quisquam? Esse
+                        commodi asperiores magnam illum corporis atque, doloribus nobis non.</p>
+                    <p class="blog-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+                        quibusdam tempora corporis quasi accusamus quo repudiandae illo nobis, fugit quisquam? Esse
+                        commodi asperiores magnam illum corporis atque, doloribus nobis non.</p>
+                </div>
+
+                <a href="" class="anchor" id="nature"></a>
+                <div class="blogcard">
+                    <div class="blog-image" alt="blog-image" dataset="2"></div>
+                    <span class="blog-tag">Nature</span>
+                    <h5 class="blog-posttitle">It's All About the Mountains</h5>
+                    <p class="blog-date">October, 19, 2020</p>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ipsum eius
+                        eaque perferendis illo repellat iure dolorem iusto. Illum tenetur aliquid fuga quod,
+                        doloribus esse aut dolore quas tempore adipisci!</p>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ipsum eius
+                        eaque perferendis illo repellat iure dolorem iusto. Illum tenetur aliquid fuga quod,
+                        doloribus esse aut dolore quas tempore adipisci!</p>
+                    <p class="blog-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla ipsum eius
+                        eaque perferendis illo repellat iure dolorem iusto. Illum tenetur aliquid fuga quod,
+                        doloribus esse aut dolore quas tempore adipisci!</p>
+                </div>
+
+                <a href="" class="anchor" id="space"></a>
+                <div class="blogcard">
+                    <div class="blog-image" alt="blog-image" dataset="3"></div>
+                    <span class="blog-tag">Space</span>
+                    <h5 class="blog-posttitle">Lost in Space</h5>
+                    <p class="blog-date">January, 06, 2017</p>
+                    <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit
+                        explicabo praesentium maiores. Architecto, delectus et veritatis soluta reiciendis animi
+                        consectetur distinctio aliquid recusandae fuga perspiciatis aspernatur quos culpa voluptate.
+                    </p>
+                    <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit
+                        explicabo praesentium maiores. Architecto, delectus et veritatis soluta reiciendis animi
+                        consectetur distinctio aliquid recusandae fuga perspiciatis aspernatur quos culpa voluptate.
+                    </p>
+                    <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit
+                        explicabo praesentium maiores. Architecto, delectus et veritatis soluta reiciendis animi
+                        consectetur distinctio aliquid recusandae fuga perspiciatis aspernatur quos culpa voluptate.
+                    </p>
+                </div>
+
+                <a href="" class="anchor" id="design"></a>
+                <div class="blogcard">
+                    <div class="blog-image" alt="blog-image" dataset="4"></div>
+                    <span class="blog-tag">Design</span>
+                    <h5 class="blog-posttitle">What Do I Talk About When I Talk About Drawing</h5>
+                    <p class="blog-date">February, 17, 2008</p>
+                    <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit
+                        explicabo praesentium maiores. Architecto, delectus et veritatis soluta reiciendis animi
+                        consectetur distinctio aliquid recusandae fuga perspiciatis aspernatur quos culpa voluptate.
+                    </p>
+                    <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit
+                        explicabo praesentium maiores. Architecto, delectus et veritatis soluta reiciendis animi
+                        consectetur distinctio aliquid recusandae fuga perspiciatis aspernatur quos culpa voluptate.
+                    </p>
+                    <p class="blog-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga velit
+                        explicabo praesentium maiores. Architecto, delectus et veritatis soluta reiciendis animi
+                        consectetur distinctio aliquid recusandae fuga perspiciatis aspernatur quos culpa voluptate.
+                    </p>
+                </div>
             </div>
-        </article>
+        </div>
 
 
-        <article class="blog-post">
-            <div class="post-thumbnail"></div>
-            <div class="post-text">
-                <h3 class="post-title"></h3>
-                <p class="post-date"></p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, eaque autem tempora provident
-                    fugiat tempore labore soluta obcaecati. Mollitia sapiente cum reprehenderit. Aspernatur iure,
-                    laudantium alias vel quas voluptatem nemo! </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam natus impedit voluptatibus sit
-                    nihil asperiores quam officiis quasi accusantium vel recusandae architecto omnis ducimus et ipsa
-                    assumenda, fugiat laborum repellendus. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, adipisci recusandae. Id tenetur
-                    omnis fugiat error qui, soluta quod quisquam temporibus ab. Neque soluta, necessitatibus amet
-                    dolorum excepturi fuga deserunt.</p>
-            </div>
-        </article>
-
-
-        <article class="blog-post">
-            <div class="post-thumbnail"></div>
-            <div class="post-text">
-                <h3 class="post-title"></h3>
-                <p class="post-date"></p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, eaque autem tempora provident
-                    fugiat tempore labore soluta obcaecati. Mollitia sapiente cum reprehenderit. Aspernatur iure,
-                    laudantium alias vel quas voluptatem nemo! </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam natus impedit voluptatibus sit
-                    nihil asperiores quam officiis quasi accusantium vel recusandae architecto omnis ducimus et ipsa
-                    assumenda, fugiat laborum repellendus. </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, adipisci recusandae. Id tenetur
-                    omnis fugiat error qui, soluta quod quisquam temporibus ab. Neque soluta, necessitatibus amet
-                    dolorum excepturi fuga deserunt.</p>
-            </div>
-        </article>
-
-        <!--Button-->
-        <div class="load">
+        <!--Button Load More-->
+        <div class="load container">
             <button class="load-more">Load More</button>
         </div>
     </main>
 
     <!--FOOTER-->
     <footer>
-        <div class="footer-about">
-            <a href="">logo</a>
-            <a href="">logo</a>
-            <a href="">logo</a>
-            <a href="">logo</a>
-        </div>
+        <div class="container footer-items">
+            <!--about-->
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quis porro dolorem veritatis
+                    beatae repellendus quo labore, quibusdam placeat eius soluta minima quas iusto nam laboriosam fuga.
+                    Obcaecati, at voluptatibus?</p>
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-behance"></a>
+                    <a href="#" class="fa fa-pinterest"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
 
-        <div class="copyright">
-            <p>footer copyright</p>
-        </div>
+            <!--tweets-->
+            <div class="tweets">
+                <h3>Latest Tweets</h3>
+                <div class="tweet">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <p>So many interesting people are following me. I think I'll follow some of you guys as well.</p>
+                </div>
+                <div class="tweet">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <p>A good day.</p>
+                </div>
+                <div class="tweet">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <p>This is neat.</p>
+                </div>
+            </div>
 
+            <!--instagram-->
+            <div class="instagram">
+                <h3>Instagram</h3>
+                <div>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                    <a href="" class="instagram-photo"></a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2020 Created by Unvab</p>
+                <p>done by Giovanna Albuquerque</p>
+            </div>
+        </div>
     </footer>
 
+    <!--SCRIPT-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/blog/blog-nav.js"></script>
+    <script src="js/navbar.js"></script>
 </body>
 
 </html>

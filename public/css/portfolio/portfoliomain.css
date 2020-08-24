@@ -1,0 +1,154 @@
+
+.portfolio-works{
+    margin: 1rem;
+    max-height: 800px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: -10;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+    .portfolio-works::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .portfolio-work {
+        display: block;
+        position: relative;
+        margin: auto;
+        margin-bottom: 10px;
+        width: 100vw;
+        height: 100vw;
+        background-color: var(--graylight);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+        .portfolio-work[dataset="1"] {
+            background-image: url('../../img/portfolio_mountain.jpg');
+        }
+
+        .portfolio-work[dataset="2"] {
+            background-image: url('../../img/portfolio_mist.jpg');
+        }
+
+        .portfolio-work[dataset="3"] {
+            background-image: url('../../img/portfolio_sea.jpg');
+        }
+
+        .portfolio-work[dataset="4"] {
+            background-image: url('../../img/portfolio_dive.jpg');
+        }
+
+        .portfolio-work[dataset="5"] {
+            background-image: url('../../img/portfolio_waterfal.jpg');
+        }
+
+        .portfolio-work[dataset="6"] {
+            background-image: url('../../img/portfolio_wedding.jpg');
+        }
+
+        .portfolio-work[dataset="7"] {
+            background-image: url('../../img/portfolio_mist.jpg');
+        }
+
+        .portfolio-work[dataset="8"] {
+            background-image: url('../../img/portfolio_mountain.jpg');
+        }
+
+        .portfolio-work[dataset="9"] {
+            background-image: url('../../img/portfolio_wedding.jpg');
+
+        }
+
+        .work-title {
+            display: none;
+        }
+
+        .work-type{
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+
+            .portfolio-works{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows:repeat(5, auto);
+                gap: 0.5rem 0.5rem;
+                justify-content: center;
+                align-items: center;
+                height: auto;
+                max-height: none;
+            }
+
+            .portfolio-work {
+                width: 400px;
+                height: 400px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+        
+            .portfolio-works{
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                justify-content: center;
+                align-items: center;
+                height: 88vw;
+                max-height: none;
+                margin-left: 5rem;
+                margin-right: 5rem;
+            }
+        
+            .portfolio-work {
+                height: 100%;
+                width: 100%;
+                background-size: cover;
+                margin-bottom: 20px;
+                position: relative;
+            }
+                .portfolio-work:hover .work-title::after {
+                    content: "";
+                    background-color: black;
+                    opacity: 0.3;
+                    position: absolute;
+                    top:0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                }
+        
+                .work-title {
+                    text-align: center;
+                    color: var(--white);
+                    font-family: 'Playfair Display', serif;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    line-height: 1.3;
+                    padding-bottom: 1rem;
+                    padding-top: 35%;
+                }
+
+
+                .work-type {
+                    text-align: center;
+                    color: var(--white);
+                    font-family: 'Playfair Display', serif;
+                    font-size: 0.7rem;
+                    font-weight: 300;
+                    line-height: 1.3;
+                    padding: 1rem;
+                }
+        
+                .portfolio-work:hover .work-title,
+                .portfolio-work:hover .work-type {
+                    display: block;
+                }
+        
+        }
+        
