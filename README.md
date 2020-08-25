@@ -2,7 +2,7 @@
 
 ## Snow | One Page Agency
 
-Responsive Website for a music school called MusicDot. Done as part of Front-End Development Course (HTML & CSS) at Caelum. Developed with Mobile First concept in mind, this website aims to bring a responsive and effective experience to users in different platforms.
+Snow is a Wwbsite for a fictional Digital Agency with home, blog and portfolio screens. Based on a PSD resource from Freebiesbug.com the website brings a classy design with sober colors and minimalist aesthetic. The project was developed with a fully responsive design in mind and a manipulative, eventful and animated HTML document. Done with HTML5, CSS3 and Jquery.
 
 ![Mockups](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/complete.png)
 
@@ -12,7 +12,7 @@ Responsive Website for a music school called MusicDot. Done as part of Front-End
 Here are the technologies used in this project.
 
 * HTML5
-* CSS
+* CSS3
 * JQuery
 
 
@@ -30,28 +30,33 @@ Here are the technologies used in this project.
 
 ## How to use
 
-### 1-) Open the site on your default browser and check what MusicDot has to offer. Scroll down to see available courses, payment plans, youtube links and app adds.
-![IphoneVer](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/IPHONE%20VER.png)
+### 1-) Snow is a fictional Digital Agency website. It has 3 main screens: Home, Blog and Portfolio. All of them feature responsive design, manipulated HTML and share the same classy and sober design principles.
 
-### 2-) If you're using your Ipad, enjoy our responsive version exclusive for screens bigger than 640px.
-![IpadVer](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/IPAD%20MOCKUP.png)
+### 2-) Done with Mobile First concept, it brings a simple yet sophisticated interface.
+![IphoneVer](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/mobile/mobile_screens1.png)
+![IphoneVer](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/mobile/mobile_screens2.png)
 
-### 3-) Finally, you can also learn about MusicDot on your desktop.
-![Desktop1](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/sc_homemenu.png)
-![Desktop2](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/sc_plans.png)
-![Desktop3](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/sc_footer.png)
+### 3-) Aimed at users on tablets and Ipads, the breakout at 640px width presents a screen organization with more information displayed.
+![IpadVer](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/ipad/ipad_screens1.png)
+![IpadVer](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/ipad/ipad_screens2.png)
 
-### 4-) If you need, you can contact MusicDot by clicking on 'Contato' on the header navbar. You'll also find more information about MusicDot history and business.
-![About](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/sc_about.png)
-![Contato](https://github.com/GHBAlbuquerque/musicDot/blob/master/readme_images/sc_contact.png)
+### 3-) Finally, you can also enjoy Snow website on your laptop on desktop computer, with breakout at 1024px.
+![Desktop1](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/desktop_screens%20copy.png)
+![Desktop2](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_5.png)
+![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_6.png)
+![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_8.png)
+
+### 4-) Filter you images on the portfolio by theme:
+![About](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/portfolio_1.png)
+![Contato](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/portfolio_2.png)
 
 
 ## Features
 
   - Responsive design with 2 breaks (min-width: 640px and 1024 px);
   - Attractive and colorful design;
+  - HTML manipulation with JQuery on Form validation, Content filter, responsive navbar and sliders.
  
-
 
 ## Links
 
