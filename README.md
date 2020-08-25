@@ -40,13 +40,13 @@ Here are the technologies used in this project.
 ![IpadVer](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/ipad/ipad_screens1.png)
 ![IpadVer](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/ipad/ipad_screens2.png)
 
-### 3-) Finally, you can also enjoy Snow website on your laptop on desktop computer, with breakout at 1024px.
+### 4-) Finally, you can also enjoy Snow website on your laptop on desktop computer, with breakout at 1024px.
 ![Desktop1](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/desktop_screens%20copy.png)
 ![Desktop2](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_5.png)
 ![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_6.png)
 ![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_8.png)
 
-### 4-) Filter you images on the portfolio by theme:
+### 5-) Filter you images on the portfolio by theme:
 ![About](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/portfolio_1.png)
 ![Contato](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/portfolio_2.png)
 
