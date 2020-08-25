@@ -44,7 +44,8 @@ Here are the technologies used in this project.
 ![Desktop1](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/desktop_screens%20copy.png)
 ![Desktop2](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_5.png)
 ![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_6.png)
-![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_8.png)
+![Desktop3](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/home_8_footer.png)
+
 
 ### 5-) Filter you images on the portfolio by theme:
 ![About](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/desktop/portfolio_1.png)
