@@ -55,7 +55,7 @@ Here are the technologies used in this project.
 ## Features
 
   - Responsive design with 2 breaks (min-width: 640px and 1024 px);
-  - Attractive and colorful design;
+  - Classy, sober and minimalist design;
   - HTML manipulation with JQuery on Form validation, Content filter, responsive navbar and sliders.
  
 
