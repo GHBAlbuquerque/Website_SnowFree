@@ -62,9 +62,9 @@ Here are the technologies used in this project.
 ## Links
 
   - Repository: https://github.com/GHBAlbuquerque/Website_SnowFree
-    - In case of sensitive bugs like security vulnerabilities, please contact
-     ghb.albuquerque@gmail.com directly instead of using issue tracker. We value your effort
-      to improve the security and privacy of this project!
+  - In case of sensitive bugs like security vulnerabilities, please contact 
+  ghb.albuquerque@gmail.com directly instead of using issue tracker. We value your effort
+  to improve the security and privacy of this project!
 
 
 ## Versioning
