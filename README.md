@@ -2,7 +2,7 @@
 
 ## Snow | One Page Agency
 
-Snow is a Wwbsite for a fictional Digital Agency with home, blog and portfolio screens. Based on a PSD resource from Freebiesbug.com the website brings a classy design with sober colors and minimalist aesthetic. The project was developed with a fully responsive design in mind and a manipulative, eventful and animated HTML document. Done with HTML5, CSS3 and Jquery.
+Snow is a website for a fictional Digital Agency with home, blog and portfolio screens. Based on a PSD resource from Freebiesbug.com the website brings a classy design with sober colors and minimalist aesthetic. The project was developed with a fully responsive design in mind and a manipulative, eventful and animated HTML document. Done with HTML5, CSS3 and Jquery.
 
 ![Mockups](https://github.com/GHBAlbuquerque/Website_SnowFree/blob/master/public/readme_images/complete.png)
 
